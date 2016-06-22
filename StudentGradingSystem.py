@@ -37,6 +37,7 @@ def removeStudent():
     nameToEnter = input('  Student Name: ')
     if nameToEnter in studentDict:
         del studentDict[nameToEnter]
+        print(studentDict)
     else:
         print('  ',nameToEnter, 'does not exist in our system.')
 
